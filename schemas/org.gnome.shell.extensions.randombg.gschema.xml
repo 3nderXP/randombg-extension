@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.randombg" path="/org/gnome/shell/extensions/randombg/">
+    <key name="folder" type="s">
+      <default>"/home/adrian-cs/Pictures"</default>
+      <summary>Folder with background images</summary>
+    </key>
+    <key name="shortcut" type="s">
+      <default>""</default>
+      <summary>Shortcut to change background</summary>
+    </key>
+    <key name="enable-loop" type="b">
+      <default>false</default>
+      <summary>Enable automatic background loop</summary>
+    </key>
+    <key name="loop-seconds" type="i">
+      <default>30</default>
+      <summary>Seconds to loop</summary>
+    </key>
+    <key name="random-background-shortcut" type="as">
+      <default>[]</default>
+      <summary>Shortcut to change background</summary>
+    </key>
+  </schema>
+</schemalist>
