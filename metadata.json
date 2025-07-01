@@ -1,0 +1,7 @@
+{
+    "name": "Random Background",
+    "description": "A GNOME Shell extension to set a random background from a specified folder.",
+    "uuid": "randombg@adrian-cs.com",
+    "shell-version": [ "43" ],
+    "url": "https://github.com/your-username/random-background-gnome-extension"
+}
